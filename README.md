@@ -45,4 +45,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 <a target="_blank" href="https://icons8.com/icon/k0oqOPG4RTqB/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 Photo by <a href="https://unsplash.com/@davidjorre?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Jorre</a> on <a href="https://unsplash.com/photos/9f1gCaLkZBU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Image by <a href="https://pixabay.com/users/pikurā-17746921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5887126">Pikurā</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5887126">Pixabay</a>
   
