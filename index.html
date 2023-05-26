@@ -6,83 +6,91 @@
     <meta name="viewport" content="width=O, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/CSS/reset.css">
     <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;1,300&family=Poppins&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 
 <body>
     <header>
-        <h1>Carol Kim</h1>
+        <h1>carol kim</h1>
         <nav>
           <ul>
-            <li><a href="#about-me">About</a></li>
-            <li><a href="#work ">Work</a></li>
-            <li><a href="#Contact">Contact</a></li>
-            <li><a href="#">Resume</a></li>
+            <li><a href="#about-me">about</a></li>
+            <li><a href="#work ">work</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="./resume.html">resume</a></li>
           </ul>
         </nav>
       </header>
 
-      <section class="hero"></section> 
-    
-      <main>
-        <section>
-        <div id="about-me"></div>
-            <h2>About Me</h2>
-            <div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nisi, saepe quas sint consequuntur esse voluptatum, dolores dolor aspernatur neque laborum dolorum dolorem repudiandae. Dignissimos eveniet sequi corporis tempore ullam!</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
-            </div>
-        </section>
+      <section class="img">
+        <img src="./assets/images/unsplash-img.jpg" alt="header-image">
+      </section>
 
-        <section>
-            <div id="work"></div>
-                <h2>Work</h2>
-                <div>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nisi, saepe quas sint consequuntur esse voluptatum, dolores dolor aspernatur neque laborum dolorum dolorem repudiandae. Dignissimos eveniet sequi corporis tempore ullam!</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
+      <main>
+        <article>    
+            <section class="container">
+                    <h2 class="sidebar">about me</h2>
+                    <p class="content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
+            </section>
+
+            <section class="container" id="work">
+                <h2 class="sidebar">work</h2>
+                <div class="content">
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <img src="https://via.placeholder.com/400" alt="Placeholder Image"></a>
+
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <img src="https://via.placeholder.com/200" alt="Placeholder Image"></a>
+
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <img src="https://via.placeholder.com/200" alt="Placeholder Image"></a>
+
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <img src="https://via.placeholder.com/200" alt="Placeholder Image"></a>
+
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <img src="https://via.placeholder.com/200" alt="Placeholder Image"></a>
                 </div>
             </section>
 
-        <section>
-        <div id="contact"></div>
-            <h2>Contact Me</h2>
-            <form>
-              <h3>Add a Comment:</h3>
-              <p>
-                <label for="username">Name:</label>
-                <input class="text-input" id="username" type="text" placeholder="First Last" />
-              </p>
-              <p>
-                <label for="email">E-mail:</label>
-                <input class="text-input" id="email" type="text" placeholder="me@example.com" />
-              </p>
-              <p class="flex-row">
-                <label for="expertise">CSS level of expertise:</label>
-                <select id="expertise">
-                  <option>Beginner</option>
-                  <option selected>Intermediate</option>
-                  <option>Advanced</option>
-                </select>
-              </p>
-              <p>
-                <label for="comment">Comment:</label>
-                <textarea class="text-input" id="comment" placeholder="Great article!"></textarea>
-              </p>
-              <p class="flex-row">
-                <input class="checkbox" id="agreement" type="checkbox" />
-                <label for="agreement">I agree to share my e-mail address with The CSS Blog</label>
-              </p>
-              <p>
-                <button>Submit</button>
-              </p>
-            </form>
-        </section>
+            <section class="container" id="contact">
+                <h2 class="sidebar">contact me</h2>
+                <div class="content">
+                    <form action="#" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                        
+                        <div class="submit-container">
+                            <button type="submit" class="submit-button">Send</button>
+                        </div>
+
+                    </form> 
+                </div>               
+            </section>
+            
+        </article>
       </main>
     
       <footer>
-        <span>Thanks for visiting!</span>
+        <span>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/icons8-github-35.png" alt="Github Icon"></a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/icons8-instagram-35.png" alt="Instagram Icon"></a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/icons8-twitter-35.png" alt="Twitter Icon"></a>
+        </span>
       </footer>
     
 </body>

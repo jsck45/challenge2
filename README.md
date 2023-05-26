@@ -35,3 +35,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Link
 
 <a href="https://jsck45.github.io/challenge2/"> Porfolio </a>
+
+
+<a target="_blank" href="https://icons8.com/icon/12598/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/437/twitter">Twitter</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/k0oqOPG4RTqB/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
