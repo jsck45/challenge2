@@ -1,10 +1,8 @@
 /* Global Styles */
-
 :root {
   --background-color-navy: #13293d;
   --color-green: #667867;
   --color-white: #f9f8f4;
-
 }
 
 body {
@@ -45,6 +43,7 @@ body {
   }
   
   /* Navigation Styles */
+
   nav ul {
     display: flex;
     justify-content: space-between;
@@ -85,13 +84,11 @@ body {
   }
 
   .img {
-    /* max-width:fit-content;
-    height:500px; */
     max-width:auto;;
     height: 500px;
     overflow:hidden;
-    padding:0%;
-    margin:0%;
+    padding:0;
+    margin:0;
     }
 
 /* Article Styles */
@@ -111,7 +108,7 @@ body {
   }
 
   .sidebar {
-    width:30%;
+    width:20%;
     display:block;
     flex-grow:0;
     flex-shrink:1;
@@ -123,10 +120,11 @@ body {
   }
 
   .content {
-    width:70%;
+    width:80%;
     display:block;
     flex-grow: 0;
     flex-shrink: 1;
+    flex-wrap: wrap;
     flex-basis: auto;
     align-self: auto;
     order:2;
@@ -135,9 +133,42 @@ body {
     height: 100%;
   }
 
+  .work-links {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+
+  .link-image-2x {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .link-image-2x img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+  }
+
+  .link-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+  }
+
+  .link-image img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+  }
+
+
   /* Form Styles */
   form {
-    max-width: 400px;
+    max-width: 600px;
   }
   
   label {
@@ -198,11 +229,79 @@ body {
 
   
 /* Media Query Styles */
-  @media screen and (max-width: 768px) {
-    header {
-      flex-direction: column;
-    }
 
-    }
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+ /* Header Styles */
 
+ header {
+  display:flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+}
+
+header ul li a {
+  margin-right: 1.5rem; 
+}
+
+/* Heading Styles */
+h1 {
+  display:flex;
+  font-size: 180%; 
+  text-align: center;
+  order:1;
+}
+
+h2 {
+  font-size: 180%; 
+}
+
+/* Navigation Styles */
+nav {
+  display:flex;
+  justify-content: space-around;
+  width:100%;
+  order:2;
+}
+
+nav ul li {
+  padding: 0.5rem;
+}
+
+/* Main Content Styles */
+.container {
+  flex-direction: column; /* Stack the sections vertically */
+}
+
+.sidebar {
+  width: 100%; /* Make the sidebar full width */
+  text-align: center; /* Center the text in the sidebar */
+  padding-right: 0; /* Remove the right padding */
+  margin-bottom: 1rem; /* Add some spacing between the sidebar and content */
+}
+
+.content {
+  width: 100%; /* Make the content full width */
+  border-left: none; /* Remove the left border */
+  padding: 1rem; /* Adjust the padding for smaller screens */
+}
+
+
+/* Form Styles */
+form {
+  max-width: 100%; /* Make the form full width */
+}
+
+/* Footer Styles */
+footer {
+  flex-direction: column; /* Stack the footer content vertically */
+  align-items: center; /* Center the footer content */
+}
+
+.icon-button {
+  margin: 1rem; /* Adjust the margin for smaller screens */
+}
+
+}
+ 
   
