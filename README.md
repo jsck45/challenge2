@@ -30,11 +30,14 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-![Alt Text](assets/images/screenshot.png)
+![Screenshot of deployed website](./assets/images/screenshot.png)
+
+
 
 ## Link
 
 <a href="https://jsck45.github.io/challenge2/"> Porfolio </a>
+
 
 ## References
 
