@@ -2,7 +2,7 @@
 
 ## Portfolio 
 
-Create a portfolio with working links to completed projects.
+The aim of this challenge was to create a portfolio page with working links to examples of our work which we can add to as we progress throughout the course. 
 
 ## User Story
 
